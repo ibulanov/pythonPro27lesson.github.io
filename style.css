@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+body {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    max-width: 390px;
+    background-color: #E8FF98;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+}
+
+img {
+    width: 150px;
+}
+
+.item {
+    text-align: center;
+}
+
+button {
+    padding: 8px;
+    text-transform: uppercase;
+    background-color: #FF3B20;
+    font-family: 'Rubik Bubbles', cursive;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: #FF8979;
+}
+
+form {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100px;
+}
+
+#result {
+    text-align: center;
+}
+
+#submit {
+    padding: 20px 40px;
+    background-color: red;
+    font-size: 32px;
+}
+
+#submit:hover {
+    background-color: #FF8979;
+}
+
+
+
