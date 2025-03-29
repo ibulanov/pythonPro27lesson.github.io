@@ -9,10 +9,10 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 import datetime
 from aiogram.dispatcher import filters
 
-bot = Bot(token="5644768745:AAGOrfSr-ZI62Dylu6PXVgp4IBXBDFEf70U")
+bot = Bot(token="7579456182:AAGSVyJ0B_Yw98qwGTLVvsELTYNafdyB1jE")
 dp = Dispatcher(bot)
 
-web_app = WebAppInfo(url="https://maximilian13.github.io/Maximilian13071999.github.io/")
+web_app = WebAppInfo(url="https://ibulanov.github.io/pythonPro27lesson.github.io/")
 kb_main = ReplyKeyboardMarkup(resize_keyboard=True)
 kb_main.add(KeyboardButton(text="site", web_app=web_app))
 
